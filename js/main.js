@@ -56,6 +56,8 @@ function startGame() {
   scoreBoard.textContent = 0;
   scoreBoard.style.display = 'block';
   countdownBoard.textContent = countdown;
+  startButton.style.display = 'none';
+
   timeUp = false;
   score = 0;
   popOut();
@@ -70,6 +72,7 @@ function startGame() {
       countdown = 0;
       clearInterval(startCountdown);
       countdownBoard.textContent = 'Times up!!! This is the way?';
+      startButton.style.display = 'block';
     }
   }, 1000);
 }
