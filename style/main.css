@@ -23,9 +23,9 @@ body {
 }
 
 .scoreBoard {
-  font-size: 150px;
+  font-size: 100px;
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 200px;
@@ -33,7 +33,7 @@ body {
   text-align: center;
 }
 
-.countdown {
+.countdownBoard {
   position: absolute;
   top: 400px;
   width: 100%;
